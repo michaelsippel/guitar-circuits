@@ -68,46 +68,24 @@ $EndComp
 $Comp
 L L L12
 U 1 1 58CEDDC2
-P 3750 1100
-F 0 "L12" V 3700 1100 50  0000 C CNN
-F 1 "L" V 3825 1100 50  0000 C CNN
-F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 3750 1100 50  0001 C CNN
-F 3 "" H 3750 1100 50  0001 C CNN
-	1    3750 1100
-	-1   0    0    1   
+P 3850 1050
+F 0 "L12" V 3800 1050 50  0000 C CNN
+F 1 "L" V 3925 1050 50  0000 C CNN
+F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 3850 1050 50  0001 C CNN
+F 3 "" H 3850 1050 50  0001 C CNN
+	1    3850 1050
+	1    0    0    -1  
 $EndComp
 $Comp
 L L L11
 U 1 1 58CEDE66
-P 3550 1100
-F 0 "L11" V 3500 1100 50  0000 C CNN
-F 1 "L" V 3625 1100 50  0000 C CNN
-F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 3550 1100 50  0001 C CNN
-F 3 "" H 3550 1100 50  0001 C CNN
-	1    3550 1100
+P 3450 1025
+F 0 "L11" V 3400 1025 50  0000 C CNN
+F 1 "L" V 3525 1025 50  0000 C CNN
+F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 3450 1025 50  0001 C CNN
+F 3 "" H 3450 1025 50  0001 C CNN
+	1    3450 1025
 	-1   0    0    1   
-$EndComp
-$Comp
-L L L21
-U 1 1 58CEDEE5
-P 3350 5925
-F 0 "L21" V 3300 5925 50  0000 C CNN
-F 1 "L" V 3425 5925 50  0000 C CNN
-F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 3350 5925 50  0001 C CNN
-F 3 "" H 3350 5925 50  0001 C CNN
-	1    3350 5925
-	1    0    0    -1  
-$EndComp
-$Comp
-L L L22
-U 1 1 58CEDF50
-P 3550 5925
-F 0 "L22" V 3500 5925 50  0000 C CNN
-F 1 "L" V 3625 5925 50  0000 C CNN
-F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 3550 5925 50  0001 C CNN
-F 3 "" H 3550 5925 50  0001 C CNN
-	1    3550 5925
-	1    0    0    -1  
 $EndComp
 $Comp
 L R R11
@@ -266,12 +244,12 @@ $EndComp
 $Comp
 L GND #PWR1
 U 1 1 58CEFD9B
-P 3650 800
-F 0 "#PWR1" H 3650 550 50  0001 C CNN
-F 1 "GND" H 3650 650 50  0000 C CNN
-F 2 "" H 3650 800 50  0001 C CNN
-F 3 "" H 3650 800 50  0001 C CNN
-	1    3650 800 
+P 3850 700
+F 0 "#PWR1" H 3850 450 50  0001 C CNN
+F 1 "GND" H 3850 550 50  0000 C CNN
+F 2 "" H 3850 700 50  0001 C CNN
+F 3 "" H 3850 700 50  0001 C CNN
+	1    3850 700 
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -362,102 +340,10 @@ F 3 "" H 3550 4200 50  0001 C CNN
 	1    3550 4200
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR40
-U 1 1 58CF3C56
-P 3450 6250
-F 0 "#PWR40" H 3450 6000 50  0001 C CNN
-F 1 "GND" H 3450 6100 50  0000 C CNN
-F 2 "" H 3450 6250 50  0001 C CNN
-F 3 "" H 3450 6250 50  0001 C CNN
-	1    3450 6250
-	1    0    0    -1  
-$EndComp
 Text Notes 7350 7500 0    60   ~ 0
 Humbucker 1
 Text Notes 8125 7650 0    60   ~ 0
 19.03.2017
-Wire Wire Line
-	4050 1450 4150 1450
-Wire Wire Line
-	4150 1450 4150 1650
-Wire Wire Line
-	4150 1650 4050 1650
-Connection ~ 4150 1550
-Wire Wire Line
-	3750 1450 3750 1650
-Wire Wire Line
-	3650 1300 3650 1800
-Wire Wire Line
-	3650 1550 3750 1550
-Connection ~ 3750 1550
-Connection ~ 3650 1550
-Wire Wire Line
-	3550 1300 3750 1300
-Wire Wire Line
-	3750 1300 3750 1250
-Wire Wire Line
-	3450 1700 3350 1700
-Wire Wire Line
-	3450 1700 3450 1800
-Wire Wire Line
-	3100 2600 3550 2600
-Wire Wire Line
-	3550 2400 3550 2700
-Connection ~ 3550 2600
-Wire Wire Line
-	1400 3350 1400 3450
-Wire Wire Line
-	1400 3450 1550 3450
-Wire Wire Line
-	1550 3550 1400 3550
-Wire Wire Line
-	1550 3650 1400 3650
-Wire Wire Line
-	1400 3650 1400 3750
-Wire Wire Line
-	3550 950  3750 950 
-Wire Wire Line
-	3550 1300 3550 1250
-Connection ~ 3650 1300
-Wire Wire Line
-	3650 800  3650 950 
-Connection ~ 3650 950 
-Wire Wire Line
-	3200 2600 3200 2500
-Wire Wire Line
-	3200 1850 3200 2200
-Wire Wire Line
-	3350 5775 3350 5700
-Wire Wire Line
-	3350 5700 3550 5700
-Wire Wire Line
-	3550 5700 3550 5775
-Wire Wire Line
-	3350 6075 3550 6075
-Wire Wire Line
-	3450 5250 3450 5700
-Connection ~ 3450 5700
-Wire Wire Line
-	2950 5600 3050 5600
-Wire Wire Line
-	2950 5400 2950 5600
-Wire Wire Line
-	2950 5400 3050 5400
-Connection ~ 2950 5500
-Wire Wire Line
-	3350 5400 3350 5600
-Wire Wire Line
-	3450 5500 3350 5500
-Connection ~ 3350 5500
-Connection ~ 3450 5500
-Wire Wire Line
-	3650 5350 3650 5250
-Wire Wire Line
-	3550 4350 3550 4650
-Wire Wire Line
-	3450 6250 3450 6075
-Connection ~ 3450 6075
 $Comp
 L C C14
 U 1 1 58D26A17
@@ -469,7 +355,6 @@ F 3 "" H 2950 2600 50  0001 C CNN
 	1    2950 2600
 	0    1    1    0   
 $EndComp
-Connection ~ 3200 2600
 $Comp
 L GND #PWR21
 U 1 1 58D26B04
@@ -481,8 +366,6 @@ F 3 "" H 2800 2600 50  0001 C CNN
 	1    2800 2600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3650 5350 3800 5350
 $Comp
 L R R22
 U 1 1 58D30657
@@ -494,13 +377,6 @@ F 3 "" H 3950 4800 50  0001 C CNN
 	1    3950 4800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3550 4550 4050 4550
-Wire Wire Line
-	3950 4550 3950 4650
-Connection ~ 3550 4550
-Wire Wire Line
-	3950 4950 3950 5200
 $Comp
 L C C24
 U 1 1 58D307F2
@@ -512,7 +388,6 @@ F 3 "" H 4200 4550 50  0001 C CNN
 	1    4200 4550
 	0    1    1    0   
 $EndComp
-Connection ~ 3950 4550
 $Comp
 L GND #PWR28
 U 1 1 58D308ED
@@ -534,28 +409,6 @@ F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5300 2100 50  0001 C CNN
 F 3 "" H 5300 2100 50  0001 C CNN
 	1    5300 2100
 	0    1    1    0   
-$EndComp
-$Comp
-L L L32
-U 1 1 58D495E0
-P 5500 1100
-F 0 "L32" V 5450 1100 50  0000 C CNN
-F 1 "L" V 5575 1100 50  0000 C CNN
-F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 5500 1100 50  0001 C CNN
-F 3 "" H 5500 1100 50  0001 C CNN
-	1    5500 1100
-	-1   0    0    1   
-$EndComp
-$Comp
-L L L31
-U 1 1 58D495E6
-P 5300 1100
-F 0 "L31" V 5250 1100 50  0000 C CNN
-F 1 "L" V 5375 1100 50  0000 C CNN
-F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 5300 1100 50  0001 C CNN
-F 3 "" H 5300 1100 50  0001 C CNN
-	1    5300 1100
-	-1   0    0    1   
 $EndComp
 $Comp
 L R R31
@@ -657,17 +510,6 @@ F 3 "" H 5300 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR2
-U 1 1 58D49622
-P 5400 800
-F 0 "#PWR2" H 5400 550 50  0001 C CNN
-F 1 "GND" H 5400 650 50  0000 C CNN
-F 2 "" H 5400 800 50  0001 C CNN
-F 3 "" H 5400 800 50  0001 C CNN
-	1    5400 800 
-	-1   0    0    1   
-$EndComp
-$Comp
 L +9V #PWR16
 U 1 1 58D49628
 P 5900 2000
@@ -689,46 +531,6 @@ F 3 "" H 4700 2000 50  0001 C CNN
 	1    4700 2000
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	5800 1450 5900 1450
-Wire Wire Line
-	5900 1450 5900 1650
-Wire Wire Line
-	5900 1650 5800 1650
-Connection ~ 5900 1550
-Wire Wire Line
-	5500 1450 5500 1650
-Wire Wire Line
-	5400 1300 5400 1800
-Wire Wire Line
-	5400 1550 5500 1550
-Connection ~ 5500 1550
-Connection ~ 5400 1550
-Wire Wire Line
-	5300 1300 5500 1300
-Wire Wire Line
-	5500 1300 5500 1250
-Wire Wire Line
-	5200 1700 5100 1700
-Wire Wire Line
-	5200 1700 5200 1800
-Wire Wire Line
-	4850 2600 5300 2600
-Wire Wire Line
-	5300 2400 5300 2700
-Connection ~ 5300 2600
-Wire Wire Line
-	5300 950  5500 950 
-Wire Wire Line
-	5300 1300 5300 1250
-Connection ~ 5400 1300
-Wire Wire Line
-	5400 800  5400 950 
-Connection ~ 5400 950 
-Wire Wire Line
-	4950 2600 4950 2500
-Wire Wire Line
-	4950 1850 4950 2200
 $Comp
 L C C34
 U 1 1 58D4964C
@@ -740,7 +542,6 @@ F 3 "" H 4700 2600 50  0001 C CNN
 	1    4700 2600
 	0    1    1    0   
 $EndComp
-Connection ~ 4950 2600
 $Comp
 L GND #PWR22
 U 1 1 58D49653
@@ -762,28 +563,6 @@ F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 7000 2100 50  0001 C CNN
 F 3 "" H 7000 2100 50  0001 C CNN
 	1    7000 2100
 	0    1    1    0   
-$EndComp
-$Comp
-L L L52
-U 1 1 58D49D74
-P 7200 1100
-F 0 "L52" V 7150 1100 50  0000 C CNN
-F 1 "L" V 7275 1100 50  0000 C CNN
-F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 7200 1100 50  0001 C CNN
-F 3 "" H 7200 1100 50  0001 C CNN
-	1    7200 1100
-	-1   0    0    1   
-$EndComp
-$Comp
-L L L51
-U 1 1 58D49D7A
-P 7000 1100
-F 0 "L51" V 6950 1100 50  0000 C CNN
-F 1 "L" V 7075 1100 50  0000 C CNN
-F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 7000 1100 50  0001 C CNN
-F 3 "" H 7000 1100 50  0001 C CNN
-	1    7000 1100
-	-1   0    0    1   
 $EndComp
 $Comp
 L R R51
@@ -885,17 +664,6 @@ F 3 "" H 7000 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR3
-U 1 1 58D49DB6
-P 7100 800
-F 0 "#PWR3" H 7100 550 50  0001 C CNN
-F 1 "GND" H 7100 650 50  0000 C CNN
-F 2 "" H 7100 800 50  0001 C CNN
-F 3 "" H 7100 800 50  0001 C CNN
-	1    7100 800 
-	-1   0    0    1   
-$EndComp
-$Comp
 L +9V #PWR18
 U 1 1 58D49DBC
 P 7600 2000
@@ -917,46 +685,6 @@ F 3 "" H 6400 2000 50  0001 C CNN
 	1    6400 2000
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	7500 1450 7600 1450
-Wire Wire Line
-	7600 1450 7600 1650
-Wire Wire Line
-	7600 1650 7500 1650
-Connection ~ 7600 1550
-Wire Wire Line
-	7200 1450 7200 1650
-Wire Wire Line
-	7100 1300 7100 1800
-Wire Wire Line
-	7100 1550 7200 1550
-Connection ~ 7200 1550
-Connection ~ 7100 1550
-Wire Wire Line
-	7000 1300 7200 1300
-Wire Wire Line
-	7200 1300 7200 1250
-Wire Wire Line
-	6900 1700 6800 1700
-Wire Wire Line
-	6900 1700 6900 1800
-Wire Wire Line
-	6550 2600 7000 2600
-Wire Wire Line
-	7000 2400 7000 2700
-Connection ~ 7000 2600
-Wire Wire Line
-	7000 950  7200 950 
-Wire Wire Line
-	7000 1300 7000 1250
-Connection ~ 7100 1300
-Wire Wire Line
-	7100 800  7100 950 
-Connection ~ 7100 950 
-Wire Wire Line
-	6650 2600 6650 2500
-Wire Wire Line
-	6650 1850 6650 2200
 $Comp
 L C C54
 U 1 1 58D49DDF
@@ -968,7 +696,6 @@ F 3 "" H 6400 2600 50  0001 C CNN
 	1    6400 2600
 	0    1    1    0   
 $EndComp
-Connection ~ 6650 2600
 $Comp
 L GND #PWR23
 U 1 1 58D49DE6
@@ -980,8 +707,6 @@ F 3 "" H 6250 2600 50  0001 C CNN
 	1    6250 2600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7000 3000 7000 3100
 $Comp
 L TL072 U7/8
 U 1 1 58D4E1E8
@@ -992,28 +717,6 @@ F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 8700 2100 50  0001 C CNN
 F 3 "" H 8700 2100 50  0001 C CNN
 	1    8700 2100
 	0    1    1    0   
-$EndComp
-$Comp
-L L L72
-U 1 1 58D4E1EE
-P 8900 1100
-F 0 "L72" V 8850 1100 50  0000 C CNN
-F 1 "L" V 8975 1100 50  0000 C CNN
-F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 8900 1100 50  0001 C CNN
-F 3 "" H 8900 1100 50  0001 C CNN
-	1    8900 1100
-	-1   0    0    1   
-$EndComp
-$Comp
-L L L71
-U 1 1 58D4E1F4
-P 8700 1100
-F 0 "L71" V 8650 1100 50  0000 C CNN
-F 1 "L" V 8775 1100 50  0000 C CNN
-F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 8700 1100 50  0001 C CNN
-F 3 "" H 8700 1100 50  0001 C CNN
-	1    8700 1100
-	-1   0    0    1   
 $EndComp
 $Comp
 L R R71
@@ -1115,17 +818,6 @@ F 3 "" H 8700 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR4
-U 1 1 58D4E230
-P 8800 800
-F 0 "#PWR4" H 8800 550 50  0001 C CNN
-F 1 "GND" H 8800 650 50  0000 C CNN
-F 2 "" H 8800 800 50  0001 C CNN
-F 3 "" H 8800 800 50  0001 C CNN
-	1    8800 800 
-	-1   0    0    1   
-$EndComp
-$Comp
 L +9V #PWR20
 U 1 1 58D4E236
 P 9300 2000
@@ -1147,46 +839,6 @@ F 3 "" H 8100 2000 50  0001 C CNN
 	1    8100 2000
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	9200 1450 9300 1450
-Wire Wire Line
-	9300 1450 9300 1650
-Wire Wire Line
-	9300 1650 9200 1650
-Connection ~ 9300 1550
-Wire Wire Line
-	8900 1450 8900 1650
-Wire Wire Line
-	8800 1300 8800 1800
-Wire Wire Line
-	8800 1550 8900 1550
-Connection ~ 8900 1550
-Connection ~ 8800 1550
-Wire Wire Line
-	8700 1300 8900 1300
-Wire Wire Line
-	8900 1300 8900 1250
-Wire Wire Line
-	8600 1700 8500 1700
-Wire Wire Line
-	8600 1700 8600 1800
-Wire Wire Line
-	8250 2600 8700 2600
-Wire Wire Line
-	8700 2400 8700 2700
-Connection ~ 8700 2600
-Wire Wire Line
-	8700 950  8900 950 
-Wire Wire Line
-	8700 1300 8700 1250
-Connection ~ 8800 1300
-Wire Wire Line
-	8800 800  8800 950 
-Connection ~ 8800 950 
-Wire Wire Line
-	8350 2600 8350 2500
-Wire Wire Line
-	8350 1850 8350 2200
 $Comp
 L C C74
 U 1 1 58D4E260
@@ -1198,7 +850,6 @@ F 3 "" H 8100 2600 50  0001 C CNN
 	1    8100 2600
 	0    1    1    0   
 $EndComp
-Connection ~ 8350 2600
 $Comp
 L GND #PWR24
 U 1 1 58D4E267
@@ -1210,28 +861,6 @@ F 3 "" H 7950 2600 50  0001 C CNN
 	1    7950 2600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8700 3000 8700 3200
-Wire Wire Line
-	5300 3000 5300 3100
-Wire Wire Line
-	5300 3100 6100 3100
-Wire Wire Line
-	6100 3100 6100 3300
-Wire Wire Line
-	6200 3300 6200 3100
-Wire Wire Line
-	6200 3100 7000 3100
-Wire Wire Line
-	6300 3300 6300 3200
-Wire Wire Line
-	6300 3200 8700 3200
-Wire Wire Line
-	3550 3000 3550 3200
-Wire Wire Line
-	3550 3200 6000 3200
-Wire Wire Line
-	6000 3200 6000 3300
 $Comp
 L TL072 U3/4
 U 2 1 58D572DF
@@ -1242,28 +871,6 @@ F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5300 4950 50  0001 C CNN
 F 3 "" H 5300 4950 50  0001 C CNN
 	2    5300 4950
 	0    -1   -1   0   
-$EndComp
-$Comp
-L L L41
-U 1 1 58D572E5
-P 5100 5925
-F 0 "L41" V 5050 5925 50  0000 C CNN
-F 1 "L" V 5175 5925 50  0000 C CNN
-F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 5100 5925 50  0001 C CNN
-F 3 "" H 5100 5925 50  0001 C CNN
-	1    5100 5925
-	1    0    0    -1  
-$EndComp
-$Comp
-L L L42
-U 1 1 58D572EB
-P 5300 5925
-F 0 "L42" V 5250 5925 50  0000 C CNN
-F 1 "L" V 5375 5925 50  0000 C CNN
-F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 5300 5925 50  0001 C CNN
-F 3 "" H 5300 5925 50  0001 C CNN
-	1    5300 5925
-	1    0    0    -1  
 $EndComp
 $Comp
 L R R41
@@ -1332,50 +939,6 @@ F 3 "" H 5300 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR41
-U 1 1 58D57315
-P 5200 6250
-F 0 "#PWR41" H 5200 6000 50  0001 C CNN
-F 1 "GND" H 5200 6100 50  0000 C CNN
-F 2 "" H 5200 6250 50  0001 C CNN
-F 3 "" H 5200 6250 50  0001 C CNN
-	1    5200 6250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5100 5775 5100 5700
-Wire Wire Line
-	5100 5700 5300 5700
-Wire Wire Line
-	5300 5700 5300 5775
-Wire Wire Line
-	5100 6075 5300 6075
-Wire Wire Line
-	5200 5250 5200 5700
-Connection ~ 5200 5700
-Wire Wire Line
-	4700 5600 4800 5600
-Wire Wire Line
-	4700 5400 4700 5600
-Wire Wire Line
-	4700 5400 4800 5400
-Connection ~ 4700 5500
-Wire Wire Line
-	5100 5400 5100 5600
-Wire Wire Line
-	5200 5500 5100 5500
-Connection ~ 5100 5500
-Connection ~ 5200 5500
-Wire Wire Line
-	5400 5350 5400 5250
-Wire Wire Line
-	5300 4350 5300 4650
-Wire Wire Line
-	5200 6250 5200 6075
-Connection ~ 5200 6075
-Wire Wire Line
-	5400 5350 5550 5350
-$Comp
 L R R42
 U 1 1 58D57334
 P 5700 4800
@@ -1386,13 +949,6 @@ F 3 "" H 5700 4800 50  0001 C CNN
 	1    5700 4800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5300 4550 5800 4550
-Wire Wire Line
-	5700 4550 5700 4650
-Connection ~ 5300 4550
-Wire Wire Line
-	5700 4950 5700 5200
 $Comp
 L C C44
 U 1 1 58D5733F
@@ -1404,7 +960,6 @@ F 3 "" H 5950 4550 50  0001 C CNN
 	1    5950 4550
 	0    1    1    0   
 $EndComp
-Connection ~ 5700 4550
 $Comp
 L GND #PWR29
 U 1 1 58D57346
@@ -1428,32 +983,10 @@ F 3 "" H 7000 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L L L61
-U 1 1 58D58E20
-P 6800 5925
-F 0 "L61" V 6750 5925 50  0000 C CNN
-F 1 "L" V 6875 5925 50  0000 C CNN
-F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 6800 5925 50  0001 C CNN
-F 3 "" H 6800 5925 50  0001 C CNN
-	1    6800 5925
-	1    0    0    -1  
-$EndComp
-$Comp
-L L L62
-U 1 1 58D58E26
-P 7000 5925
-F 0 "L62" V 6950 5925 50  0000 C CNN
-F 1 "L" V 7075 5925 50  0000 C CNN
-F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 7000 5925 50  0001 C CNN
-F 3 "" H 7000 5925 50  0001 C CNN
-	1    7000 5925
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R15
+L R R61
 U 1 1 58D58E2C
 P 6650 5400
-F 0 "R15" V 6730 5400 50  0000 C CNN
+F 0 "R61" V 6730 5400 50  0000 C CNN
 F 1 "R" V 6650 5400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6580 5400 50  0001 C CNN
 F 3 "" H 6650 5400 50  0001 C CNN
@@ -1516,50 +1049,6 @@ F 3 "" H 7000 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR42
-U 1 1 58D58E50
-P 6900 6250
-F 0 "#PWR42" H 6900 6000 50  0001 C CNN
-F 1 "GND" H 6900 6100 50  0000 C CNN
-F 2 "" H 6900 6250 50  0001 C CNN
-F 3 "" H 6900 6250 50  0001 C CNN
-	1    6900 6250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6800 5775 6800 5700
-Wire Wire Line
-	6800 5700 7000 5700
-Wire Wire Line
-	7000 5700 7000 5775
-Wire Wire Line
-	6800 6075 7000 6075
-Wire Wire Line
-	6900 5250 6900 5700
-Connection ~ 6900 5700
-Wire Wire Line
-	6400 5600 6500 5600
-Wire Wire Line
-	6400 5400 6400 5600
-Wire Wire Line
-	6400 5400 6500 5400
-Connection ~ 6400 5500
-Wire Wire Line
-	6800 5400 6800 5600
-Wire Wire Line
-	6900 5500 6800 5500
-Connection ~ 6800 5500
-Connection ~ 6900 5500
-Wire Wire Line
-	7100 5350 7100 5250
-Wire Wire Line
-	7000 4350 7000 4650
-Wire Wire Line
-	6900 6250 6900 6075
-Connection ~ 6900 6075
-Wire Wire Line
-	7100 5350 7250 5350
-$Comp
 L R R62
 U 1 1 58D58E6F
 P 7400 4800
@@ -1570,13 +1059,6 @@ F 3 "" H 7400 4800 50  0001 C CNN
 	1    7400 4800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7000 4550 7500 4550
-Wire Wire Line
-	7400 4550 7400 4650
-Connection ~ 7000 4550
-Wire Wire Line
-	7400 4950 7400 5200
 $Comp
 L C C64
 U 1 1 58D58E7A
@@ -1588,7 +1070,6 @@ F 3 "" H 7650 4550 50  0001 C CNN
 	1    7650 4550
 	0    1    1    0   
 $EndComp
-Connection ~ 7400 4550
 $Comp
 L GND #PWR30
 U 1 1 58D58E81
@@ -1610,28 +1091,6 @@ F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 8700 4950 50  0001 C CNN
 F 3 "" H 8700 4950 50  0001 C CNN
 	2    8700 4950
 	0    -1   -1   0   
-$EndComp
-$Comp
-L L L81
-U 1 1 58D595BD
-P 8500 5925
-F 0 "L81" V 8450 5925 50  0000 C CNN
-F 1 "L" V 8575 5925 50  0000 C CNN
-F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 8500 5925 50  0001 C CNN
-F 3 "" H 8500 5925 50  0001 C CNN
-	1    8500 5925
-	1    0    0    -1  
-$EndComp
-$Comp
-L L L82
-U 1 1 58D595C3
-P 8700 5925
-F 0 "L82" V 8650 5925 50  0000 C CNN
-F 1 "L" V 8775 5925 50  0000 C CNN
-F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 8700 5925 50  0001 C CNN
-F 3 "" H 8700 5925 50  0001 C CNN
-	1    8700 5925
-	1    0    0    -1  
 $EndComp
 $Comp
 L R R81
@@ -1700,27 +1159,568 @@ F 3 "" H 8700 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR43
-U 1 1 58D595ED
-P 8600 6250
-F 0 "#PWR43" H 8600 6000 50  0001 C CNN
-F 1 "GND" H 8600 6100 50  0000 C CNN
-F 2 "" H 8600 6250 50  0001 C CNN
-F 3 "" H 8600 6250 50  0001 C CNN
-	1    8600 6250
+L R R82
+U 1 1 58D5960C
+P 9100 4800
+F 0 "R82" V 9180 4800 50  0000 C CNN
+F 1 "R" V 9100 4800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9030 4800 50  0001 C CNN
+F 3 "" H 9100 4800 50  0001 C CNN
+	1    9100 4800
 	1    0    0    -1  
 $EndComp
+$Comp
+L C C84
+U 1 1 58D59617
+P 9350 4550
+F 0 "C84" H 9375 4650 50  0000 L CNN
+F 1 "C" H 9375 4450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9388 4400 50  0001 C CNN
+F 3 "" H 9350 4550 50  0001 C CNN
+	1    9350 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR31
+U 1 1 58D5961E
+P 9500 4550
+F 0 "#PWR31" H 9500 4300 50  0001 C CNN
+F 1 "GND" H 9500 4400 50  0000 C CNN
+F 2 "" H 9500 4550 50  0001 C CNN
+F 3 "" H 9500 4550 50  0001 C CNN
+	1    9500 4550
+	0    -1   1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP12
+U 1 1 58D8BFD5
+P 3650 975
+F 0 "JP12" H 3650 1055 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3660 915 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 3650 975 50  0001 C CNN
+F 3 "" H 3650 975 50  0001 C CNN
+	1    3650 975 
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper_NC_Small JP13
+U 1 1 58D8D7D8
+P 3550 1225
+F 0 "JP13" H 3550 1305 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 3560 1165 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 3550 1225 50  0001 C CNN
+F 3 "" H 3550 1225 50  0001 C CNN
+	1    3550 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NC_Small JP11
+U 1 1 58D8D8D1
+P 3750 825
+F 0 "JP11" H 3750 905 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 3760 765 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 3750 825 50  0001 C CNN
+F 3 "" H 3750 825 50  0001 C CNN
+	1    3750 825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L32
+U 1 1 58D90325
+P 5600 1050
+F 0 "L32" V 5550 1050 50  0000 C CNN
+F 1 "L" V 5675 1050 50  0000 C CNN
+F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 5600 1050 50  0001 C CNN
+F 3 "" H 5600 1050 50  0001 C CNN
+	1    5600 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L31
+U 1 1 58D9032B
+P 5200 1025
+F 0 "L31" V 5150 1025 50  0000 C CNN
+F 1 "L" V 5275 1025 50  0000 C CNN
+F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 5200 1025 50  0001 C CNN
+F 3 "" H 5200 1025 50  0001 C CNN
+	1    5200 1025
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58D90331
+P 5600 700
+F 0 "#PWR?" H 5600 450 50  0001 C CNN
+F 1 "GND" H 5600 550 50  0000 C CNN
+F 2 "" H 5600 700 50  0001 C CNN
+F 3 "" H 5600 700 50  0001 C CNN
+	1    5600 700 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP32
+U 1 1 58D9033B
+P 5400 975
+F 0 "JP32" H 5400 1055 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5410 915 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 5400 975 50  0001 C CNN
+F 3 "" H 5400 975 50  0001 C CNN
+	1    5400 975 
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper_NC_Small JP33
+U 1 1 58D90346
+P 5300 1225
+F 0 "JP33" H 5300 1305 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 5310 1165 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 5300 1225 50  0001 C CNN
+F 3 "" H 5300 1225 50  0001 C CNN
+	1    5300 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NC_Small JP31
+U 1 1 58D9034C
+P 5500 825
+F 0 "JP31" H 5500 905 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 5510 765 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 5500 825 50  0001 C CNN
+F 3 "" H 5500 825 50  0001 C CNN
+	1    5500 825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L52
+U 1 1 58D90FC1
+P 7300 1050
+F 0 "L52" V 7250 1050 50  0000 C CNN
+F 1 "L" V 7375 1050 50  0000 C CNN
+F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 7300 1050 50  0001 C CNN
+F 3 "" H 7300 1050 50  0001 C CNN
+	1    7300 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L51
+U 1 1 58D90FC7
+P 6900 1025
+F 0 "L51" V 6850 1025 50  0000 C CNN
+F 1 "L" V 6975 1025 50  0000 C CNN
+F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 6900 1025 50  0001 C CNN
+F 3 "" H 6900 1025 50  0001 C CNN
+	1    6900 1025
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58D90FCD
+P 7300 700
+F 0 "#PWR?" H 7300 450 50  0001 C CNN
+F 1 "GND" H 7300 550 50  0000 C CNN
+F 2 "" H 7300 700 50  0001 C CNN
+F 3 "" H 7300 700 50  0001 C CNN
+	1    7300 700 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP52
+U 1 1 58D90FD5
+P 7100 975
+F 0 "JP52" H 7100 1055 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7110 915 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 7100 975 50  0001 C CNN
+F 3 "" H 7100 975 50  0001 C CNN
+	1    7100 975 
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper_NC_Small JP53
+U 1 1 58D90FE0
+P 7000 1225
+F 0 "JP53" H 7000 1305 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 7010 1165 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 7000 1225 50  0001 C CNN
+F 3 "" H 7000 1225 50  0001 C CNN
+	1    7000 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NC_Small JP51
+U 1 1 58D90FE6
+P 7200 825
+F 0 "JP51" H 7200 905 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 7210 765 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 7200 825 50  0001 C CNN
+F 3 "" H 7200 825 50  0001 C CNN
+	1    7200 825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L72
+U 1 1 58D925DF
+P 9000 1050
+F 0 "L72" V 8950 1050 50  0000 C CNN
+F 1 "L" V 9075 1050 50  0000 C CNN
+F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 9000 1050 50  0001 C CNN
+F 3 "" H 9000 1050 50  0001 C CNN
+	1    9000 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L71
+U 1 1 58D925E5
+P 8600 1025
+F 0 "L71" V 8550 1025 50  0000 C CNN
+F 1 "L" V 8675 1025 50  0000 C CNN
+F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 8600 1025 50  0001 C CNN
+F 3 "" H 8600 1025 50  0001 C CNN
+	1    8600 1025
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58D925EB
+P 9000 700
+F 0 "#PWR?" H 9000 450 50  0001 C CNN
+F 1 "GND" H 9000 550 50  0000 C CNN
+F 2 "" H 9000 700 50  0001 C CNN
+F 3 "" H 9000 700 50  0001 C CNN
+	1    9000 700 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP72
+U 1 1 58D925F3
+P 8800 975
+F 0 "JP72" H 8800 1055 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8810 915 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 8800 975 50  0001 C CNN
+F 3 "" H 8800 975 50  0001 C CNN
+	1    8800 975 
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper_NC_Small JP73
+U 1 1 58D925FE
+P 8700 1225
+F 0 "JP73" H 8700 1305 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 8710 1165 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 8700 1225 50  0001 C CNN
+F 3 "" H 8700 1225 50  0001 C CNN
+	1    8700 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NC_Small JP71
+U 1 1 58D92604
+P 8900 825
+F 0 "JP71" H 8900 905 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 8910 765 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 8900 825 50  0001 C CNN
+F 3 "" H 8900 825 50  0001 C CNN
+	1    8900 825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L22
+U 1 1 58DB0651
+P 3250 5950
+F 0 "L22" V 3200 5950 50  0000 C CNN
+F 1 "L" V 3325 5950 50  0000 C CNN
+F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 3250 5950 50  0001 C CNN
+F 3 "" H 3250 5950 50  0001 C CNN
+	1    3250 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L L L21
+U 1 1 58DB0657
+P 3650 5975
+F 0 "L21" V 3600 5975 50  0000 C CNN
+F 1 "L" V 3725 5975 50  0000 C CNN
+F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 3650 5975 50  0001 C CNN
+F 3 "" H 3650 5975 50  0001 C CNN
+	1    3650 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58DB065D
+P 3250 6300
+F 0 "#PWR?" H 3250 6050 50  0001 C CNN
+F 1 "GND" H 3250 6150 50  0000 C CNN
+F 2 "" H 3250 6300 50  0001 C CNN
+F 3 "" H 3250 6300 50  0001 C CNN
+	1    3250 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP22
+U 1 1 58DB0667
+P 3450 6025
+F 0 "JP22" H 3450 6105 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3460 5965 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 3450 6025 50  0001 C CNN
+F 3 "" H 3450 6025 50  0001 C CNN
+	1    3450 6025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper_NC_Small JP23
+U 1 1 58DB0672
+P 3550 5775
+F 0 "JP23" H 3550 5855 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 3560 5715 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 3550 5775 50  0001 C CNN
+F 3 "" H 3550 5775 50  0001 C CNN
+	1    3550 5775
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NC_Small JP21
+U 1 1 58DB0678
+P 3350 6175
+F 0 "JP21" H 3350 6255 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 3360 6115 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 3350 6175 50  0001 C CNN
+F 3 "" H 3350 6175 50  0001 C CNN
+	1    3350 6175
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	8500 5775 8500 5700
+	4050 1450 4150 1450
 Wire Wire Line
-	8500 5700 8700 5700
+	4150 1450 4150 1650
 Wire Wire Line
-	8700 5700 8700 5775
+	4150 1650 4050 1650
+Connection ~ 4150 1550
 Wire Wire Line
-	8500 6075 8700 6075
+	3750 1450 3750 1650
 Wire Wire Line
-	8600 5250 8600 5700
-Connection ~ 8600 5700
+	3650 1375 3650 1800
+Wire Wire Line
+	3650 1550 3750 1550
+Connection ~ 3750 1550
+Wire Wire Line
+	3450 1700 3350 1700
+Wire Wire Line
+	3450 1700 3450 1800
+Wire Wire Line
+	3100 2600 3550 2600
+Wire Wire Line
+	3550 2400 3550 2700
+Connection ~ 3550 2600
+Wire Wire Line
+	1400 3350 1400 3450
+Wire Wire Line
+	1400 3450 1550 3450
+Wire Wire Line
+	1550 3550 1400 3550
+Wire Wire Line
+	1550 3650 1400 3650
+Wire Wire Line
+	1400 3650 1400 3750
+Wire Wire Line
+	3850 700  3850 900 
+Wire Wire Line
+	3200 2600 3200 2500
+Wire Wire Line
+	3200 1850 3200 2200
+Wire Wire Line
+	2950 5600 3050 5600
+Wire Wire Line
+	2950 5400 2950 5600
+Wire Wire Line
+	2950 5400 3050 5400
+Connection ~ 2950 5500
+Wire Wire Line
+	3350 5400 3350 5600
+Wire Wire Line
+	3450 5500 3350 5500
+Connection ~ 3350 5500
+Connection ~ 3450 5500
+Wire Wire Line
+	3650 5350 3650 5250
+Wire Wire Line
+	3550 4350 3550 4650
+Connection ~ 3200 2600
+Wire Wire Line
+	3650 5350 3800 5350
+Wire Wire Line
+	3550 4550 4050 4550
+Wire Wire Line
+	3950 4550 3950 4650
+Connection ~ 3550 4550
+Wire Wire Line
+	3950 4950 3950 5200
+Connection ~ 3950 4550
+Wire Wire Line
+	5800 1450 5900 1450
+Wire Wire Line
+	5900 1450 5900 1650
+Wire Wire Line
+	5900 1650 5800 1650
+Connection ~ 5900 1550
+Wire Wire Line
+	5500 1450 5500 1650
+Wire Wire Line
+	5400 1375 5400 1800
+Wire Wire Line
+	5400 1550 5500 1550
+Connection ~ 5500 1550
+Wire Wire Line
+	5200 1700 5100 1700
+Wire Wire Line
+	5200 1700 5200 1800
+Wire Wire Line
+	4850 2600 5300 2600
+Wire Wire Line
+	5300 2400 5300 2700
+Connection ~ 5300 2600
+Wire Wire Line
+	4950 2600 4950 2500
+Wire Wire Line
+	4950 1850 4950 2200
+Connection ~ 4950 2600
+Wire Wire Line
+	7500 1450 7600 1450
+Wire Wire Line
+	7600 1450 7600 1650
+Wire Wire Line
+	7600 1650 7500 1650
+Connection ~ 7600 1550
+Wire Wire Line
+	7200 1450 7200 1650
+Wire Wire Line
+	7100 1550 7200 1550
+Connection ~ 7200 1550
+Connection ~ 7100 1550
+Wire Wire Line
+	6900 1700 6800 1700
+Wire Wire Line
+	6900 1700 6900 1800
+Wire Wire Line
+	6550 2600 7000 2600
+Wire Wire Line
+	7000 2400 7000 2700
+Connection ~ 7000 2600
+Wire Wire Line
+	6650 2600 6650 2500
+Wire Wire Line
+	6650 1850 6650 2200
+Connection ~ 6650 2600
+Wire Wire Line
+	7000 3000 7000 3100
+Wire Wire Line
+	9200 1450 9300 1450
+Wire Wire Line
+	9300 1450 9300 1650
+Wire Wire Line
+	9300 1650 9200 1650
+Connection ~ 9300 1550
+Wire Wire Line
+	8900 1450 8900 1650
+Wire Wire Line
+	8800 1550 8900 1550
+Connection ~ 8900 1550
+Connection ~ 8800 1550
+Wire Wire Line
+	8600 1700 8500 1700
+Wire Wire Line
+	8600 1700 8600 1800
+Wire Wire Line
+	8250 2600 8700 2600
+Wire Wire Line
+	8700 2400 8700 2700
+Connection ~ 8700 2600
+Wire Wire Line
+	8350 2600 8350 2500
+Wire Wire Line
+	8350 1850 8350 2200
+Connection ~ 8350 2600
+Wire Wire Line
+	8700 3000 8700 3200
+Wire Wire Line
+	5300 3000 5300 3100
+Wire Wire Line
+	5300 3100 6100 3100
+Wire Wire Line
+	6100 3100 6100 3300
+Wire Wire Line
+	6200 3300 6200 3100
+Wire Wire Line
+	6200 3100 7000 3100
+Wire Wire Line
+	6300 3300 6300 3200
+Wire Wire Line
+	6300 3200 8700 3200
+Wire Wire Line
+	3550 3000 3550 3200
+Wire Wire Line
+	3550 3200 6000 3200
+Wire Wire Line
+	6000 3200 6000 3300
+Wire Wire Line
+	5200 5250 5200 5650
+Wire Wire Line
+	4700 5600 4800 5600
+Wire Wire Line
+	4700 5400 4700 5600
+Wire Wire Line
+	4700 5400 4800 5400
+Connection ~ 4700 5500
+Wire Wire Line
+	5100 5400 5100 5600
+Wire Wire Line
+	5200 5500 5100 5500
+Connection ~ 5100 5500
+Connection ~ 5200 5500
+Wire Wire Line
+	5400 5350 5400 5250
+Wire Wire Line
+	5300 4350 5300 4650
+Wire Wire Line
+	5400 5350 5550 5350
+Wire Wire Line
+	5300 4550 5800 4550
+Wire Wire Line
+	5700 4550 5700 4650
+Connection ~ 5300 4550
+Wire Wire Line
+	5700 4950 5700 5200
+Connection ~ 5700 4550
+Wire Wire Line
+	6900 5250 6900 5650
+Wire Wire Line
+	6400 5600 6500 5600
+Wire Wire Line
+	6400 5400 6400 5600
+Wire Wire Line
+	6400 5400 6500 5400
+Connection ~ 6400 5500
+Wire Wire Line
+	6800 5400 6800 5600
+Wire Wire Line
+	6900 5500 6800 5500
+Connection ~ 6800 5500
+Connection ~ 6900 5500
+Wire Wire Line
+	7100 5350 7100 5250
+Wire Wire Line
+	7000 4350 7000 4650
+Wire Wire Line
+	7100 5350 7250 5350
+Wire Wire Line
+	7000 4550 7500 4550
+Wire Wire Line
+	7400 4550 7400 4650
+Connection ~ 7000 4550
+Wire Wire Line
+	7400 4950 7400 5200
+Connection ~ 7400 4550
+Wire Wire Line
+	8600 5250 8600 5650
 Wire Wire Line
 	8100 5600 8200 5600
 Wire Wire Line
@@ -1739,21 +1739,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 4350 8700 4650
 Wire Wire Line
-	8600 6250 8600 6075
-Connection ~ 8600 6075
-Wire Wire Line
 	8800 5350 8950 5350
-$Comp
-L R R82
-U 1 1 58D5960C
-P 9100 4800
-F 0 "R82" V 9180 4800 50  0000 C CNN
-F 1 "R" V 9100 4800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9030 4800 50  0001 C CNN
-F 3 "" H 9100 4800 50  0001 C CNN
-	1    9100 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8700 4550 9200 4550
 Wire Wire Line
@@ -1761,29 +1747,7 @@ Wire Wire Line
 Connection ~ 8700 4550
 Wire Wire Line
 	9100 4950 9100 5200
-$Comp
-L C C84
-U 1 1 58D59617
-P 9350 4550
-F 0 "C84" H 9375 4650 50  0000 L CNN
-F 1 "C" H 9375 4450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9388 4400 50  0001 C CNN
-F 3 "" H 9350 4550 50  0001 C CNN
-	1    9350 4550
-	0    1    1    0   
-$EndComp
 Connection ~ 9100 4550
-$Comp
-L GND #PWR31
-U 1 1 58D5961E
-P 9500 4550
-F 0 "#PWR31" H 9500 4300 50  0001 C CNN
-F 1 "GND" H 9500 4400 50  0000 C CNN
-F 2 "" H 9500 4550 50  0001 C CNN
-F 3 "" H 9500 4550 50  0001 C CNN
-	1    9500 4550
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	8700 4050 8700 3900
 Wire Wire Line
@@ -1808,4 +1772,392 @@ Wire Wire Line
 	6200 4000 7000 4000
 Wire Wire Line
 	7000 4000 7000 4050
+Wire Wire Line
+	3450 1375 3650 1375
+Wire Wire Line
+	3450 1175 3450 1300
+Connection ~ 3650 1550
+Wire Wire Line
+	3450 875  3450 825 
+Wire Wire Line
+	3450 825  3650 825 
+Wire Wire Line
+	3650 825  3650 875 
+Wire Wire Line
+	3650 1075 3650 1225
+Wire Wire Line
+	3650 1225 3850 1225
+Connection ~ 3850 825 
+Connection ~ 3650 825 
+Connection ~ 3450 1225
+Connection ~ 3650 1225
+Wire Wire Line
+	3850 1225 3850 1200
+Wire Wire Line
+	3450 1375 3450 1225
+Wire Wire Line
+	5600 700  5600 900 
+Wire Wire Line
+	5200 1175 5200 1300
+Wire Wire Line
+	5200 875  5200 825 
+Wire Wire Line
+	5200 825  5400 825 
+Wire Wire Line
+	5400 825  5400 875 
+Wire Wire Line
+	5400 1075 5400 1225
+Wire Wire Line
+	5400 1225 5600 1225
+Connection ~ 5600 825 
+Connection ~ 5400 825 
+Connection ~ 5200 1225
+Connection ~ 5400 1225
+Wire Wire Line
+	5600 1225 5600 1200
+Wire Wire Line
+	5200 1375 5200 1225
+Wire Wire Line
+	5200 1375 5400 1375
+Connection ~ 5400 1550
+Wire Wire Line
+	7100 1375 7100 1800
+Wire Wire Line
+	7300 700  7300 900 
+Wire Wire Line
+	6900 1175 6900 1300
+Wire Wire Line
+	6900 875  6900 825 
+Wire Wire Line
+	6900 825  7100 825 
+Wire Wire Line
+	7100 825  7100 875 
+Wire Wire Line
+	7100 1075 7100 1225
+Wire Wire Line
+	7100 1225 7300 1225
+Connection ~ 7300 825 
+Connection ~ 7100 825 
+Connection ~ 6900 1225
+Connection ~ 7100 1225
+Wire Wire Line
+	7300 1225 7300 1200
+Wire Wire Line
+	6900 1375 6900 1225
+Wire Wire Line
+	6900 1375 7100 1375
+Wire Wire Line
+	8800 1375 8800 1800
+Wire Wire Line
+	9000 700  9000 900 
+Wire Wire Line
+	8600 1175 8600 1300
+Wire Wire Line
+	8600 875  8600 825 
+Wire Wire Line
+	8600 825  8800 825 
+Wire Wire Line
+	8800 825  8800 875 
+Wire Wire Line
+	8800 1075 8800 1225
+Wire Wire Line
+	8800 1225 9000 1225
+Connection ~ 9000 825 
+Connection ~ 8800 825 
+Connection ~ 8600 1225
+Connection ~ 8800 1225
+Wire Wire Line
+	9000 1225 9000 1200
+Wire Wire Line
+	8600 1375 8600 1225
+Wire Wire Line
+	8800 1375 8600 1375
+Wire Wire Line
+	3250 6100 3250 6300
+Wire Wire Line
+	3650 5650 3650 5825
+Wire Wire Line
+	3650 6125 3650 6175
+Wire Wire Line
+	3650 6175 3450 6175
+Wire Wire Line
+	3450 6175 3450 6125
+Wire Wire Line
+	3450 5925 3450 5775
+Wire Wire Line
+	3450 5775 3250 5775
+Connection ~ 3250 6175
+Connection ~ 3450 6175
+Connection ~ 3650 5775
+Connection ~ 3450 5775
+Wire Wire Line
+	3250 5775 3250 5800
+Wire Wire Line
+	3450 5250 3450 5650
+Wire Wire Line
+	3450 5650 3650 5650
+$Comp
+L L L42
+U 1 1 58DE19F6
+P 5000 5950
+F 0 "L42" V 4950 5950 50  0000 C CNN
+F 1 "L" V 5075 5950 50  0000 C CNN
+F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 5000 5950 50  0001 C CNN
+F 3 "" H 5000 5950 50  0001 C CNN
+	1    5000 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L L L41
+U 1 1 58DE19FC
+P 5400 5975
+F 0 "L41" V 5350 5975 50  0000 C CNN
+F 1 "L" V 5475 5975 50  0000 C CNN
+F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 5400 5975 50  0001 C CNN
+F 3 "" H 5400 5975 50  0001 C CNN
+	1    5400 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58DE1A02
+P 5000 6300
+F 0 "#PWR?" H 5000 6050 50  0001 C CNN
+F 1 "GND" H 5000 6150 50  0000 C CNN
+F 2 "" H 5000 6300 50  0001 C CNN
+F 3 "" H 5000 6300 50  0001 C CNN
+	1    5000 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP42
+U 1 1 58DE1A08
+P 5200 6025
+F 0 "JP42" H 5200 6105 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5210 5965 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 5200 6025 50  0001 C CNN
+F 3 "" H 5200 6025 50  0001 C CNN
+	1    5200 6025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper_NC_Small JP43
+U 1 1 58DE1A0E
+P 5300 5775
+F 0 "JP43" H 5300 5855 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 5310 5715 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 5300 5775 50  0001 C CNN
+F 3 "" H 5300 5775 50  0001 C CNN
+	1    5300 5775
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NC_Small JP41
+U 1 1 58DE1A14
+P 5100 6175
+F 0 "JP41" H 5100 6255 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 5110 6115 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 5100 6175 50  0001 C CNN
+F 3 "" H 5100 6175 50  0001 C CNN
+	1    5100 6175
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 6100 5000 6300
+Wire Wire Line
+	5400 5650 5400 5825
+Wire Wire Line
+	5400 6125 5400 6175
+Wire Wire Line
+	5400 6175 5200 6175
+Wire Wire Line
+	5200 6175 5200 6125
+Wire Wire Line
+	5200 5925 5200 5775
+Wire Wire Line
+	5200 5775 5000 5775
+Connection ~ 5000 6175
+Connection ~ 5200 6175
+Connection ~ 5400 5775
+Connection ~ 5200 5775
+Wire Wire Line
+	5000 5775 5000 5800
+Wire Wire Line
+	5200 5650 5400 5650
+$Comp
+L L L62
+U 1 1 58DE3CA2
+P 6700 5950
+F 0 "L62" V 6650 5950 50  0000 C CNN
+F 1 "L" V 6775 5950 50  0000 C CNN
+F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 6700 5950 50  0001 C CNN
+F 3 "" H 6700 5950 50  0001 C CNN
+	1    6700 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L L L61
+U 1 1 58DE3CA8
+P 7100 5975
+F 0 "L61" V 7050 5975 50  0000 C CNN
+F 1 "L" V 7175 5975 50  0000 C CNN
+F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 7100 5975 50  0001 C CNN
+F 3 "" H 7100 5975 50  0001 C CNN
+	1    7100 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58DE3CAE
+P 6700 6300
+F 0 "#PWR?" H 6700 6050 50  0001 C CNN
+F 1 "GND" H 6700 6150 50  0000 C CNN
+F 2 "" H 6700 6300 50  0001 C CNN
+F 3 "" H 6700 6300 50  0001 C CNN
+	1    6700 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP62
+U 1 1 58DE3CB4
+P 6900 6025
+F 0 "JP62" H 6900 6105 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6910 5965 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 6900 6025 50  0001 C CNN
+F 3 "" H 6900 6025 50  0001 C CNN
+	1    6900 6025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper_NC_Small JP63
+U 1 1 58DE3CBA
+P 7000 5775
+F 0 "JP63" H 7000 5855 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 7010 5715 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 7000 5775 50  0001 C CNN
+F 3 "" H 7000 5775 50  0001 C CNN
+	1    7000 5775
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NC_Small JP61
+U 1 1 58DE3CC0
+P 6800 6175
+F 0 "JP61" H 6800 6255 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 6810 6115 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 6800 6175 50  0001 C CNN
+F 3 "" H 6800 6175 50  0001 C CNN
+	1    6800 6175
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 6100 6700 6300
+Wire Wire Line
+	7100 5650 7100 5825
+Wire Wire Line
+	7100 6125 7100 6175
+Wire Wire Line
+	7100 6175 6900 6175
+Wire Wire Line
+	6900 6175 6900 6125
+Wire Wire Line
+	6900 5925 6900 5775
+Wire Wire Line
+	6900 5775 6700 5775
+Connection ~ 6700 6175
+Connection ~ 6900 6175
+Connection ~ 7100 5775
+Connection ~ 6900 5775
+Wire Wire Line
+	6700 5775 6700 5800
+Wire Wire Line
+	6900 5650 7100 5650
+$Comp
+L L L82
+U 1 1 58DE5752
+P 8400 5950
+F 0 "L82" V 8350 5950 50  0000 C CNN
+F 1 "L" V 8475 5950 50  0000 C CNN
+F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 8400 5950 50  0001 C CNN
+F 3 "" H 8400 5950 50  0001 C CNN
+	1    8400 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L L L81
+U 1 1 58DE5758
+P 8800 5975
+F 0 "L81" V 8750 5975 50  0000 C CNN
+F 1 "L" V 8875 5975 50  0000 C CNN
+F 2 "Inductors_THT:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" H 8800 5975 50  0001 C CNN
+F 3 "" H 8800 5975 50  0001 C CNN
+	1    8800 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58DE575E
+P 8400 6300
+F 0 "#PWR?" H 8400 6050 50  0001 C CNN
+F 1 "GND" H 8400 6150 50  0000 C CNN
+F 2 "" H 8400 6300 50  0001 C CNN
+F 3 "" H 8400 6300 50  0001 C CNN
+	1    8400 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP82
+U 1 1 58DE5764
+P 8600 6025
+F 0 "JP82" H 8600 6105 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8610 5965 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 8600 6025 50  0001 C CNN
+F 3 "" H 8600 6025 50  0001 C CNN
+	1    8600 6025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper_NC_Small JP83
+U 1 1 58DE576A
+P 8700 5775
+F 0 "JP83" H 8700 5855 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 8710 5715 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 8700 5775 50  0001 C CNN
+F 3 "" H 8700 5775 50  0001 C CNN
+	1    8700 5775
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NC_Small JP81
+U 1 1 58DE5770
+P 8500 6175
+F 0 "JP81" H 8500 6255 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 8510 6115 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 8500 6175 50  0001 C CNN
+F 3 "" H 8500 6175 50  0001 C CNN
+	1    8500 6175
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8400 6100 8400 6300
+Wire Wire Line
+	8800 5650 8800 5825
+Wire Wire Line
+	8800 6125 8800 6175
+Wire Wire Line
+	8800 6175 8600 6175
+Wire Wire Line
+	8600 6175 8600 6125
+Wire Wire Line
+	8600 5925 8600 5775
+Wire Wire Line
+	8600 5775 8400 5775
+Connection ~ 8400 6175
+Connection ~ 8600 6175
+Connection ~ 8800 5775
+Connection ~ 8600 5775
+Wire Wire Line
+	8400 5775 8400 5800
+Wire Wire Line
+	8600 5650 8800 5650
 $EndSCHEMATC
